@@ -46,10 +46,6 @@ p {
     margin-top: 2rem;
 }
 
-#svg-container.donedrawing {
-    animation: rotateHue 1s ease infinite;
-}
-
 @keyframes rotateHue {
     from {
         filter: hue-rotate(0deg);

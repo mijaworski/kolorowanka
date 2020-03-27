@@ -47,11 +47,4 @@ function activateSVGFields() {
             drawingDone();
         }
     }
-
-    function drawingDone() {
-        svgFields.forEach(svgField =>
-            svgField.removeEventListener("click", addColor)
-        );
-        document.querySelector("#svg-container").classList.add("donedrawing");
-    }
 }

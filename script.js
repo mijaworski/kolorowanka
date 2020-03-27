@@ -6,14 +6,17 @@ let selectedColor = "";
 
 function init() {
     loadSVG();
-    setTimeout(activateColorSelector, 1000);
-    setTimeout(activateSVGFields, 1000);
+    activateColorSelector();
 }
+
 
 function loadSVG() {
     fetch("lineartto.svg")
         .then(response => response.text())
-        .then(svg => (document.querySelector("#svg-container").innerHTML = svg));
+        .then(svg => {
+            document.querySelector("#svg-container").innerHTML = svg;
+            activateSVGFields();
+        });
 }
 
 function activateColorSelector() {

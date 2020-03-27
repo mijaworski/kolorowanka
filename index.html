@@ -7,22 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Color Book</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="svg-container"></div>
-    <p>SELECTED COLOR</p>
-    <div id="selectedcolor"></div>
-    <div id="colorcontainer">
-        <div id="color1" class="colors" data-color="#d96c80" data-selected="false"></div>
-        <div id="color2" class="colors" data-color="#592f3a" data-selected="false"></div>
-        <div id="color3" class="colors" data-color="#d94e81" data-selected="false"></div>
-        <div id="color4" class="colors" data-color="#f28080" data-selected="false"></div>
-        <div id="color5" class="colors" data-color="#d91df2" data-selected="false"></div>
-        <div id="color6" class="colors" data-color="#1b0140" data-selected="false"></div>
-        <div id="color7" class="colors" data-color="#4417a6" data-selected="false"></div>
-        <div id="color8" class="colors" data-color="#1e0126" data-selected="false"></div>
-    </div>
+    <DIV id="main">
+        <div class="title">
+            <h1>Chodź, pomaluj mojego księcia!</h1>
+        </div>
+        <div id="player">
+            <audio autoplay hidden>
+                <source src="muzyczka.mp3" type="audio/mpeg">
+                If you're reading this, audio isn't supported.
+            </audio>
+        </div>
+        <div id="svg-container"></div>
+        <p>ZAMOCZYŁEŚ PĘDZELEK W:</p>
+        <div id="selectedcolor"></div>
+        <div id="colorcontainer">
+            <div id="color1" class="colors" data-color="#799fcb" data-selected="false"></div>
+            <div id="color2" class="colors" data-color="#094D92" data-selected="false"></div>
+            <div id="color3" class="colors" data-color="#79968B" data-selected="false"></div>
+            <div id="color4" class="colors" data-color="#f2cbbb" data-selected="false"></div>
+            <div id="color5" class="colors" data-color="#fec9c9" data-selected="false"></div>
+            <div id="color6" class="colors" data-color="#f9665e" data-selected="false"></div>
+            <div id="color7" class="colors" data-color="#fdfd95" data-selected="false"></div>
+            <div id="color8" class="colors" data-color="black" data-selected="false"></div>
+        </div>
+        <div class="footer">
+            <p>Zespół ds. Kolorowanek Galerii Królewskiej<br>Baridas, Almera 2020 &#x1F60D;
+            </p>
+        </div>
+    </DIV>
     <script src="script.js"></script>
 </body>
 

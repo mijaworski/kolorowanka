@@ -4,9 +4,43 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F4ADC6;
+}
+
+#main {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    padding: 50px;
+}
+
+.footer {
+    padding: 80px;
+}
+
+.audito {
+    padding: 30px;
+}
+
 #svg-container {
     height: auto;
-    width: 30%;
+    width: 90%;
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -32,6 +66,7 @@
 
 p {
     text-align: center;
+    padding: 20px;
 }
 
 #Fill_1_ .st0:hover {
@@ -40,7 +75,7 @@ p {
 }
 
 #selectedcolor {
-    --selected-color: green;
+    --selected-color: #fec9c9;
     width: 20%;
     height: 2rem;
     margin: auto auto 3rem auto;
@@ -69,33 +104,33 @@ p {
 }
 
 #color1 {
-    background-color: #d96c80;
+    background-color: #799fcb;
 }
 
 #color2 {
-    background-color: #592f3a;
+    background-color: #094D92;
 }
 
 #color3 {
-    background-color: #d94e81;
+    background-color: #79968B;
 }
 
 #color4 {
-    background-color: #f28080;
+    background-color: #f2cbbb;
 }
 
 #color5 {
-    background-color: #d91df2;
+    background-color: #fec9c9;
 }
 
 #color6 {
-    background-color: #1b0140;
+    background-color: #f9665e;
 }
 
 #color7 {
-    background-color: #4417a6;
+    background-color: #fdfd95;
 }
 
 #color8 {
-    background-color: #1e0126;
+    background-color: black;
 }

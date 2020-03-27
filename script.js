@@ -14,9 +14,6 @@ function loadSVG() {
     fetch("lineart-01.svg")
         .then(response => response.text())
         .then(svg => (document.querySelector("#svg-container").innerHTML = svg));
-    fetch("colordropper.svg")
-        .then(response => response.text())
-        .then(svg => (document.querySelector("#colordrop").innerHTML = svg));
 }
 
 function activateColorSelector() {

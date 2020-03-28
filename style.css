@@ -74,7 +74,7 @@ p {
 }
 
 #selectedcolor {
-    --selected-color: #fec9c9;
+    --selected-color: white;
     width: 20%;
     height: 2rem;
     margin: auto auto 3rem auto;

@@ -13,14 +13,16 @@ body {
 
 #main {
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     width: 800px;
     background-color: white;
     border-radius: 5%;
 }
 
+
 h1 {
     font-family: 'Pacifico', cursive;
+    font-size: 20fr;
 }
 
 p {
